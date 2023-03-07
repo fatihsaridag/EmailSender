@@ -1,0 +1,26 @@
+﻿@using EmailSendApp.Models
+@model EmailSend
+
+@{
+    ViewData["Title"] = "Send Email";
+}
+
+
+<form method="post">
+    <div class="form-group">
+        <label for="inputAddress">Title</label>
+        <input type="text" class="form-control" id="inputAddress" asp-for="Title">
+    </div>
+    <div class="form-row mt-3 ">
+        <div class="form-group col-md-5">
+            <label for="inputCity">Receiver Mail</label>
+            <input type="text" class="form-control" id="inputCity" asp-for="ReceicerMail">
+        </div>
+    </div>
+    <div class="form-group mt-3">
+        <label for="exampleFormControlTextarea1">Example textarea</label>
+        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" asp-for="Contents"></textarea>
+    </div>
+    <br />
+    <button type="submit" class="btn btn-md btn-outline-primary">Gönder</button>
+</form>
