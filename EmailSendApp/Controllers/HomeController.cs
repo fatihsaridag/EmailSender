@@ -40,9 +40,9 @@ namespace EmailSendApp.Controllers
             string serializedEmailSend = JsonConvert.SerializeObject(emailSend);
             using (var producer = new ProducerBuilder<Null, string>(_config).Build())
             {
-                await producer.ProduceAsync(topic: "test", new Message<Null, string> { Value = serializedEmailSend });
+                await producer.ProduceAsync(topic: "topic-mail", new Message<Null, string> { Value = serializedEmailSend });
                 producer.Flush(TimeSpan.FromSeconds(10));
-                _mailService.SendMessageAsync(emailSend.ReceicerMail, emailSend.Title, emailSend.Contents);
+                _mailService.SendMessageAsync(emailSend.ReceiverMail, emailSend.Title, emailSend.Contents);
                 return RedirectToAction("Index");
             }
         }

@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "svZ3MNh9qR32vGdcJ7JEUZOLjZetDWT5Qbt4Wt5AGoCmeiYlro8JT4rT3RxJ1sc/e64QCEwpAOuroamLah7l5g==",
+  "dgSpecHash": "VOsMKCxPqmzxWhRhzJygZaWi3JiQKmpfAANIEr9jeAPio2YILVvoX2cfpDItPhjfw0P6FTuF56B+aG6GYLEB5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\fatih\\source\\repos\\EmailSendApp\\EmailSendApp\\EmailSendApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\fatih\\.nuget\\packages\\confluent.kafka\\1.4.0\\confluent.kafka.1.4.0.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\confluent.kafka\\2.0.2\\confluent.kafka.2.0.2.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
-    "C:\\Users\\fatih\\.nuget\\packages\\librdkafka.redist\\1.4.0\\librdkafka.redist.1.4.0.nupkg.sha512",
+    "C:\\Users\\fatih\\.nuget\\packages\\librdkafka.redist\\2.0.2\\librdkafka.redist.2.0.2.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\messagepack.annotations\\2.1.152\\messagepack.annotations.2.1.152.nupkg.sha512",
     "C:\\Users\\fatih\\.nuget\\packages\\messagepackanalyzer\\2.1.152\\messagepackanalyzer.2.1.152.nupkg.sha512",

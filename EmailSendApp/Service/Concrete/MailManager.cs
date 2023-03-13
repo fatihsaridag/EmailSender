@@ -28,7 +28,7 @@ namespace EmailSendApp.Service.Concrete
                 mail.To.Add(to);
                 mail.Subject = subject;
                 mail.Body = body;
-                mail.From = new("fatihsaridag26@gmail.com", "Fatih Sarıdağ Mail Service", System.Text.Encoding.UTF8);
+                mail.From = new("fsaridag999@gmail.com", "Fatih Sarıdağ Mail Service", System.Text.Encoding.UTF8);
 
                 SmtpClient smtp = new();
                 smtp.Credentials = new NetworkCredential(_configuration["Mail:Username"], _configuration["Mail:Password"]);
